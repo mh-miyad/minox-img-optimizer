@@ -1,0 +1,54 @@
+{
+  "name": "minox-img-optimizer",
+  "version": "1.0",
+  "description": "Effortlessly render fully responsive images with advanced lazy loading, ensuring optimized performance across devices. Enhance the user experience with customizable placeholders and visually appealing skeleton loaders, providing smooth transitions and improved page load times.",
+  "main": "dist/LazyLoadImage.js",
+  "module": "dist/LazyLoadImage.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "keywords": [
+"react-image",
+"react-lazy-loading",
+"responsive-images",
+"image-optimization",
+"react-lazy-image",
+"image-placeholder",
+"skeleton-loader",
+"lazy-load-component",
+"image-performance",
+"react-skeleton",
+"react-placeholder",
+"optimized-images",
+"react-image-lazy-load",
+"lazy-load-images",
+"image-loading",
+"custom-placeholder",
+"react-skeleton-placeholder",
+"progressive-image-loading",
+"react-image-component",
+"lazy-load-utility"
+  ],
+  "author": "Miyad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asfak00/zenui-lazy-image-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Asfak00/zenui-lazy-image-react/issues"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "jest": "^29.7.0"
+  }
+}
